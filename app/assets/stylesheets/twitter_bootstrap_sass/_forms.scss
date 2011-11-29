@@ -28,7 +28,7 @@ fieldset {
 // Parent element that clears floats and wraps labels and fields together
 form .clearfix {
   margin-bottom: $baseline;
-  @include clearfix();
+  @include clearfix;
 }
 
 // Set font for forms

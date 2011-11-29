@@ -1,5 +1,5 @@
 # Compact function pulled from compass
-module Bourbon::SassExtensions::Functions::Compact
+module TwitterBootstrapSass::SassExtensions::Functions::Compact
 
   def compact(*args)
     sep = :comma

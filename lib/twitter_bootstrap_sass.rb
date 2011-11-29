@@ -1,7 +1,7 @@
 module TwitterBootstrapSass
   if defined?(Rails)
     class Engine < ::Rails::Engine
-      require 'twitter_bootstrap_scss/engine'
+      require 'twitter_bootstrap_sass/engine'
     end
   end
 end
