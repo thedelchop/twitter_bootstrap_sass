@@ -11,3 +11,7 @@
 
 * Namespace any mixins that conflict with bourbon or compass so that
   this can be used alongside.
+
+## v0.0.4
+
+* Don't import Bourbon into the scss since we aren't using it after all.
