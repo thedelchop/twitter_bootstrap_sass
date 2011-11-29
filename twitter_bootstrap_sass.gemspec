@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = TwitterBootstrapSass::VERSION
   s.authors     = ["Joseph DelCioppio"]
   s.email       = ["Joseph.DelCioppio@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/thedelchop/twitter_bootstrap_sass"
   s.summary     = %q{This gem is meant to be a simple port of Twitter Bootsrap into SCSS, with more semantic use of the grid system}
   s.description = %q{To use this gem, simply import 'twitter-bootstrap-sass' into your scss stylesheet.}
 
