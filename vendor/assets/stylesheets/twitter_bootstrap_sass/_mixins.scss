@@ -76,7 +76,7 @@
   @include clearfix();
 }
 
-@mixin columns($columnSpan: 1) {
+@mixin twitter-columns($columnSpan: 1) {
   width: ($gridColumnWidth * $columnSpan) + ($gridGutterWidth * ($columnSpan - 1));
 }
 
@@ -94,25 +94,25 @@
 // makeColumn can be used to mark any element (e.g., .content-primary) as a column without changing markup to .span something
 @mixin makeColumn($columnSpan: 1) {
   @include gridColumn();
-  @include columns($columnSpan);
+  @include twitter-columns($columnSpan);
 }
 
 // Border Radius
-@mixin border-radius($radius: 5px) {
+@mixin twitter-border-radius($radius: 5px) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
           border-radius: $radius;
 }
 
 // Drop shadows
-@mixin box-shadow($shadow: 0 1px 3px rgba(0,0,0,.25)) {
+@mixin twitter-box-shadow($shadow: 0 1px 3px rgba(0,0,0,.25)) {
   -webkit-box-shadow: $shadow;
      -moz-box-shadow: $shadow;
           box-shadow: $shadow;
 }
 
 // Transitions
-@mixin transition($transition) {
+@mixin twitter-transition($transition) {
   -webkit-transition: $transition;
      -moz-transition: $transition;
       -ms-transition: $transition;

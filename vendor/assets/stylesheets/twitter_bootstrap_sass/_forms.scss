@@ -74,7 +74,7 @@ select,
   line-height: $baseline;
   color: $gray;
   border: 1px solid #ccc;
-  @include border-radius(3px);
+  @include twitter-border-radius(3px);
 }
 
 /* mini reset for non-html5 file types */
@@ -94,7 +94,7 @@ input[type=file] {
   padding: initial;
   border: initial;
   line-height: initial;
-  @include box-shadow(none);
+  @include twitter-box-shadow(none);
 }
 
 input[type=button],
@@ -125,7 +125,7 @@ textarea {
   background-color: $white;
   display: block;
   border-color: #eee;
-  @include box-shadow(inset 0 1px 2px rgba(0,0,0,.025));
+  @include twitter-box-shadow(inset 0 1px 2px rgba(0,0,0,.025));
   cursor: not-allowed;
 }
 
@@ -141,20 +141,20 @@ textarea {
 input,
 textarea {
   $transition: border linear .2s, box-shadow linear .2s;
-  @include transition($transition);
-  @include box-shadow(inset 0 1px 3px rgba(0,0,0,.1));
+  @include twitter-transition($transition);
+  @include twitter-box-shadow(inset 0 1px 3px rgba(0,0,0,.1));
 }
 input:focus,
 textarea:focus {
   outline: 0;
   border-color: rgba(82,168,236,.8);
   $shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
-  @include box-shadow($shadow);
+  @include twitter-box-shadow($shadow);
 }
 input[type=file]:focus,
 input[type=checkbox]:focus,
 select:focus {
-  @include box-shadow(none); // override for file inputs
+  @include twitter-box-shadow(none); // override for file inputs
   outline: 1px dotted #666; // Selet elements don't get box-shadow styles, so instead we do outline
 }
 
@@ -163,7 +163,7 @@ form div.clearfix.error {
   background: lighten($red, 57%);
   padding: 10px 0;
   margin: -10px 0 10px;
-  @include border-radius(4px);
+  @include twitter-border-radius(4px);
   $error-text: desaturate(lighten($red, 25%), 25%);
   > label,
   span.help-inline,
@@ -173,10 +173,10 @@ form div.clearfix.error {
   input,
   textarea {
     border-color: $error-text;
-    @include box-shadow(0 0 3px rgba(171,41,32,.25));
+    @include twitter-box-shadow(0 0 3px rgba(171,41,32,.25));
     &:focus {
       border-color: darken($error-text, 10%);
-      @include box-shadow(0 0 6px rgba(171,41,32,.5));
+      @include twitter-box-shadow(0 0 6px rgba(171,41,32,.5));
     }
   }
   .input-prepend,
@@ -280,7 +280,7 @@ textarea[readonly] {
   margin-bottom: $baseline;
   padding: ($baseline - 1) 20px $baseline 150px;
   border-top: 1px solid #ddd;
-  @include border-radius(0 0 3px 3px);
+  @include twitter-border-radius(0 0 3px 3px);
   .secondary-action {
     float: right;
     a {
@@ -332,7 +332,7 @@ textarea[readonly] {
 .input-prepend,
 .input-append {
   input {
-    @include border-radius(0 3px 3px 0);
+    @include twitter-border-radius(0 3px 3px 0);
   }
   .add-on {
     position: relative;
@@ -351,7 +351,7 @@ textarea[readonly] {
     color: $grayLight;
     text-align: center;
     text-shadow: 0 1px 0 $white;
-    @include border-radius(3px 0 0 3px);
+    @include twitter-border-radius(3px 0 0 3px);
   }
   .active {
     background: lighten($green, 30);
@@ -366,10 +366,10 @@ textarea[readonly] {
 .input-append {
   input {
     float: left;
-    @include border-radius(3px 0 0 3px);
+    @include twitter-border-radius(3px 0 0 3px);
   }
   .add-on {
-    @include border-radius(0 3px 3px 0);
+    @include twitter-border-radius(0 3px 3px 0);
     margin-right: 0;
     margin-left: -1px;
   }

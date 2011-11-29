@@ -87,32 +87,32 @@ a {
 }
 
 // Default columns
-.span1     { @include columns(1); }
-.span2     { @include columns(2); }
-.span3     { @include columns(3); }
-.span4     { @include columns(4); }
-.span5     { @include columns(5); }
-.span6     { @include columns(6); }
-.span7     { @include columns(7); }
-.span8     { @include columns(8); }
-.span9     { @include columns(9); }
-.span10    { @include columns(10); }
-.span11    { @include columns(11); }
-.span12    { @include columns(12); }
-.span13    { @include columns(13); }
-.span14    { @include columns(14); }
-.span15    { @include columns(15); }
-.span16    { @include columns(16); }
+.span1     { @include twitter-columns(1); }
+.span2     { @include twitter-columns(2); }
+.span3     { @include twitter-columns(3); }
+.span4     { @include twitter-columns(4); }
+.span5     { @include twitter-columns(5); }
+.span6     { @include twitter-columns(6); }
+.span7     { @include twitter-columns(7); }
+.span8     { @include twitter-columns(8); }
+.span9     { @include twitter-columns(9); }
+.span10    { @include twitter-columns(10); }
+.span11    { @include twitter-columns(11); }
+.span12    { @include twitter-columns(12); }
+.span13    { @include twitter-columns(13); }
+.span14    { @include twitter-columns(14); }
+.span15    { @include twitter-columns(15); }
+.span16    { @include twitter-columns(16); }
 
 // For optional 24-column grid
-.span17    { @include columns(17); }
-.span18    { @include columns(18); }
-.span19    { @include columns(19); }
-.span20    { @include columns(20); }
-.span21    { @include columns(21); }
-.span22    { @include columns(22); }
-.span23    { @include columns(23); }
-.span24    { @include columns(24); }
+.span17    { @include twitter-columns(17); }
+.span18    { @include twitter-columns(18); }
+.span19    { @include twitter-columns(19); }
+.span20    { @include twitter-columns(20); }
+.span21    { @include twitter-columns(21); }
+.span22    { @include twitter-columns(22); }
+.span23    { @include twitter-columns(23); }
+.span24    { @include twitter-columns(24); }
 
 // Offset column options
 .offset1   { @include offset(1); }
