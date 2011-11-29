@@ -15,3 +15,7 @@
 ## v0.0.4
 
 * Don't import Bourbon into the scss since we aren't using it after all.
+
+## v0.0.5
+
+* Now we can import the individual files instead just all at once.
